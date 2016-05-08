@@ -3,6 +3,8 @@ html, body{
 }
 html, body, #map{
     height: 100%;
+/*     cursor: pointer; */
+    cursor: context-menu;
 }
 .leaflet-center {
 	width: 40%;
