@@ -1,7 +1,8 @@
 var map = L.map('map');
 
+// https://[abc].tile.thunderforest.com/transport/{z}/{x}/{y}.png
 
-var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+var OpenStreetMap_Mapnik = L.tileLayer('https://tile.thunderforest.com/transport/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
 OpenStreetMap_Mapnik.addTo(map);
