@@ -16,7 +16,8 @@
 var map = L.map('map');
 
 var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://opentopomap.org/about">OpenTopoMap</a>'
+  attribution: '&copy; <a href="https://opentopomap.org/about">OpenTopoMap</a>',
+  maxZoom: 19
 });
 OpenStreetMap_Mapnik.addTo(map);
 
