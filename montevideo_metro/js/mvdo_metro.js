@@ -41,7 +41,7 @@ var plaza_entrevero = new L.LatLng(-34.90612,-56.19418);
 var plaza_entrevero_marker = L.marker(plaza_entrevero).addTo(map);
 plaza_entrevero_marker.bindPopup("<strong>Plaza Del Entrevero</strong>");
 
-var plaza_cagancha = new L.LatLng(-34.905935,-56.191325);
+var plaza_cagancha = new L.LatLng(-34.90592,-56.19136);
 var plaza_cagancha_marker = L.marker(plaza_cagancha).addTo(map);
 plaza_cagancha_marker.bindPopup("<strong>Plaza Cagancha</strong>");
 
@@ -83,6 +83,12 @@ var intendencia = [[-34.906045,-56.186731], [-34.905976,-56.185548],[-34.905535,
 // create an orange rectangle
 L.polygon(intendencia, {color: "#ff7800", weight: 1}).addTo(map);
 
+// var polygon = L.polygon([
+//     [51.509, -0.08],
+//     [51.503, -0.06],
+//     [51.51, -0.047]
+// ]).addTo(mymap);
+
 //     //add standard controls
 //     L.control.coordinates().addTo(map);
 //     //add configured controls
@@ -101,9 +107,15 @@ L.polygon(intendencia, {color: "#ff7800", weight: 1}).addTo(map);
 //       useLatLngOrder:true
 //     }).addTo(map);
 
+var popup = L.popup();
+
 function onMapClick(e) {
     console.log("You clicked the map at " + e.latlng);
     map.panTo(e.latlng);
+    popup
+        .setLatLng(e.latlng)
+        .setContent("El punto seleccionado es " + e.latlng.toString())
+        .openOn(map);
 //     gib_uni();
 //     marker = new L.marker(e.latlng, {id:uni,draggable:'true'});
 //     marker.on('dragend', function(event){
