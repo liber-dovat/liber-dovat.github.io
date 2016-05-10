@@ -140,9 +140,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8724893"
-     inkscape:cx="-54.742078"
-     inkscape:cy="260.05743"
+     inkscape:zoom="8.1246266"
+     inkscape:cx="18.481888"
+     inkscape:cy="182.42018"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -172,7 +172,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -271,10 +271,13 @@
     <g
        clip-path="url(#clipPath3890)"
        id="g3894"
-       transform="matrix(0.2061486,0,0,0.2061486,-72.425041,671.45982)">
+       transform="matrix(0.2061486,0,0,0.2061486,-52.425041,671.45982)"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/maya/js/images/mayax2.png"
+       inkscape:export-xdpi="182.25998"
+       inkscape:export-ydpi="182.25998">
       <polygon
          style="fill:#ffa500;fill-opacity:1"
-         points="401.308,126.585 383.054,126.585 376.717,157.038 358.632,157.038 352.243,187.736 334.21,187.736 327.821,218.435 309.788,218.435 303.275,249.729 636.23,249.729 629.717,218.435 611.684,218.435 605.295,187.736 587.262,187.736 580.873,157.038 562.789,157.038 556.451,126.585 538.197,126.585 532.029,96.946 407.476,96.946 "
+         points="629.717,218.435 611.684,218.435 605.295,187.736 587.262,187.736 580.873,157.038 562.789,157.038 556.451,126.585 538.197,126.585 532.029,96.946 407.476,96.946 401.308,126.585 383.054,126.585 376.717,157.038 358.632,157.038 352.243,187.736 334.21,187.736 327.821,218.435 309.788,218.435 303.275,249.729 636.23,249.729 "
          id="polygon3896"
          transform="translate(-97.705269,802.36218)" />
       <path
@@ -315,7 +318,7 @@
       <polygon
          style="fill:#ed900a;fill-opacity:1"
          enable-background="new    "
-         points="520.632,249.322 496.617,96.277 507.2,127.211 511.677,127.211 518.597,156.518 525.923,156.518 536.913,190.302 548.31,190.302 557.265,220.829 566.22,220.829 580.059,249.322 "
+         points="580.059,249.322 520.632,249.322 496.617,96.277 507.2,127.211 511.677,127.211 518.597,156.518 525.923,156.518 536.913,190.302 548.31,190.302 557.265,220.829 566.22,220.829 "
          id="polygon3908"
          transform="translate(-97.705269,802.36218)" />
       <path
