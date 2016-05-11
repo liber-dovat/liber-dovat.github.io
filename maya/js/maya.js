@@ -119,7 +119,7 @@ var ciudades = [
 // agrego las ciudades al mapa
 for (var i = 0; i < ciudades.length; i++) {
 	marker = new L.marker([ciudades[i][1],ciudades[i][2]],ciudad)
-		.bindPopup(ciudades[i][0]);
+		.bindPopup("<b>" + ciudades[i][0] + "</b>", {closeButton:false});
 
 	marker.Nombre = ciudades[i][0];
   marker.ID = i;
@@ -127,6 +127,11 @@ for (var i = 0; i < ciudades.length; i++) {
 	marker.on('mouseover', function (e) {
     console.log(e.target.Nombre);
 		info.update(e);
+    this.openPopup();
+  });
+
+  marker.on('mouseout', function (e) {
+    this.closePopup();
   });
 
   marker.addTo(map);
