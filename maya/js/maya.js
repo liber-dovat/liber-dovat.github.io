@@ -8,11 +8,10 @@
 // http://tile.lonvia.de/hiking/{z}/{x}/{y}.png
 // http://tile.lonvia.de/cycling/{z}/{x}/{y}.png
 // http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png
-// https://[abc].tile.thunderforest.com/landscape/{z}/{x}/{y}.png http://www.thunderforest.com/maps/landscape/
-// https://[abc].tile.thunderforest.com/outdoors/{z}/{x}/{y}.png http://www.thunderforest.com/maps/outdoors/
+// https://[abc].tile.thunderforest.com/landscape/{z}/{x}/{y}.png
+// https://[abc].tile.thunderforest.com/outdoors/{z}/{x}/{y}.png
 // https://[abc].tile.thunderforest.com/transport/{z}/{x}/{y}.png
-// https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png
-https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw
+// https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw
 
 var map = L.map('map');
 
@@ -33,11 +32,11 @@ OpenStreetMap_Mapnik.addTo(map);
 map.setView([17.810278,-89.373470], 7);
 
 var maya = L.icon({
-  iconUrl: './js/images/maya_20.png',
+  iconUrl:       './js/images/maya_20.png',
   iconRetinaUrl: './js/images/maya_40.png',
-  iconSize: [35, 20],
-  iconAnchor: [35, 20],
-  popupAnchor: [-16, -38],
+  iconSize:      [35, 20],
+  iconAnchor:    [35, 20],
+  popupAnchor:   [-16, -38],
 //   shadowUrl: './js/images/marker-shadow.png',
 });
 var ciudad = {icon: maya, title: "Maya"};
@@ -54,18 +53,25 @@ var ciudad = {icon: maya, title: "Maya"};
 
 var info = L.control();
 
+// create a div with a class "info"
 info.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-    this.update();
-    return this._div;
-};
+  this._div = L.DomUtil.create('div', 'info');
+  this.update();
+  return this._div;
+}; // info.onAdd
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (marcador) {
-    this._div.innerHTML = '<h4>Información del sitio</h4>' +  (marcador ?
-        '<b>' + marcador.target.Nombre + '</b><br />' + marcador.target.Nombre + ' people / mi<sup>2</sup>'
-        : 'Hover over a state');
-};
+  this._div.innerHTML = '<h2>Información del sitio</h2>' + (marcador ?
+    '<b>Nombre: </b>' + marcador.target.Nombre + 
+
+    '<div class="image">' +
+      '<img src="' + "imgs/" + marcador.target.Nombre + ".jpg" + '" />' +
+      // '<div class="caption">' + img[1] + '</div>' +
+    '</div>'
+
+    : 'Hover over a state');
+}; // info.update
 
 info.addTo(map);
 
@@ -82,11 +88,11 @@ var ciudades = [
    ["Cival",17.2825,-89.346667],
    ["Cobá",20.494722,-87.736111],
    ["Copán",14.84,-89.14],
+   ["Dzibilchaltun",21.091,-89.5903],
    ["Edzna",19.5968,-90.2291],
    ["Ek'Balam",20.891111,-88.136389],
    ["Izamal",20.928959,-89.017642],
    ["Lamanai",17.7525,-88.654444],
-   ["Dzibilchaltun",21.091,-89.5903],
    ["El Mirador",17.75505,-89.920431],
    ["Mixco Viejo",14.871667,-90.664167],
    ["Motul de San José",17.026389,-89.901389],
@@ -94,8 +100,8 @@ var ciudades = [
    ["Quiriguá",15.269444,-89.040278],
    ["Q'umarkaj",15.023528,-91.171989],
    ["Río Azul",17.616667,-89.483333],
-   ["Santa Rita Corozal",18.4022824,-88.3949961],
    ["El Rey",21.060833,-86.781111],
+   ["Santa Rita Corozal",18.4022824,-88.3949961],
    ["Sayil",20.178,-89.6525],
    ["Seibal",16.511667,-90.061111],
    ["Takalik Abaj",14.645833,-91.736111],
@@ -116,13 +122,14 @@ for (var i = 0; i < ciudades.length; i++) {
 		.bindPopup(ciudades[i][0]);
 
 	marker.Nombre = ciudades[i][0];
+  marker.ID = i;
 
 	marker.on('mouseover', function (e) {
-        console.log(e.target.Nombre);
+    console.log(e.target.Nombre);
 		info.update(e);
-    });
+  });
 
-    marker.addTo(map);
+  marker.addTo(map);
 } // for
 
 // Pan out/in
