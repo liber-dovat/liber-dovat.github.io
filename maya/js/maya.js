@@ -37,7 +37,7 @@ var i_ciudad1 = L.icon({
   // iconRetinaUrl: './js/images/maya_40.png',
   iconSize:      [35, 20],
   iconAnchor:    [35, 20],
-  popupAnchor:   [-16, -38],
+  popupAnchor:   [-18, -20],
 //   shadowUrl: './js/images/marker-shadow.png',
 });
 var ciudad1 = {icon: i_ciudad1, title: "Ciudad grande"};
@@ -47,7 +47,7 @@ var i_ciudad2 = L.icon({
   // iconRetinaUrl: './js/images/maya_40.png',
   iconSize:      [29, 17],
   iconAnchor:    [29, 17],
-  popupAnchor:   [-16, -38],
+  popupAnchor:   [-15, -17],
 //   shadowUrl: './js/images/marker-shadow.png',
 });
 var ciudad2 = {icon: i_ciudad2, title: "Ciudad mediana"};
@@ -57,7 +57,7 @@ var i_ciudad3 = L.icon({
   // iconRetinaUrl: './js/images/maya_40.png',
   iconSize:      [24, 14],
   iconAnchor:    [24, 14],
-  popupAnchor:   [-16, -38],
+  popupAnchor:   [-12, -14],
 //   shadowUrl: './js/images/marker-shadow.png',
 });
 var ciudad3 = {icon: i_ciudad3, title: "Ciudad pequeña"};
@@ -67,7 +67,7 @@ var i_cueva = L.icon({
   // iconRetinaUrl: './js/images/maya_40.png',
   iconSize:      [19, 13],
   iconAnchor:    [19, 13],
-  popupAnchor:   [-16, -38],
+  popupAnchor:   [-8, -13],
 //   shadowUrl: './js/images/marker-shadow.png',
 });
 var cueva = {icon: i_cueva, title: "Cueva"};
