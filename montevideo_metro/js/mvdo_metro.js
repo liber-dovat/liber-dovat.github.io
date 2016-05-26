@@ -21,7 +21,7 @@ var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{
 });
 OpenStreetMap_Mapnik.addTo(map);
 
-map.setView([-34.9159, -56.16202], 14);
+map.setView([-34.82508, -56.06873], 12);
 
 // http://leafletjs.com/examples/custom-icons.html
 
@@ -106,6 +106,39 @@ var linea_b_poly = new L.Polyline(linea_b, {
   smoothFactor: 1
 }); // linea_b_poly
 linea_b_poly.addTo(map);
+
+///--------------------------------------
+
+var linea_c = [
+  new L.LatLng(-34.89479, -56.16475), // tres cruces
+  new L.LatLng(-34.8868, -56.14194), // magariños cervantes
+  new L.LatLng(-34.88598, -56.10522), // rambla concepcion del uruguay
+  new L.LatLng(-34.87843, -56.07023), // havre
+  new L.LatLng(-34.87558, -56.03707),
+];
+
+var linea_c_poly = new L.Polyline(linea_c, {
+  color: '#0168b3',
+  weight: 7,
+  opacity: 0.7,
+  smoothFactor: 1
+}); // linea_c_poly
+linea_c_poly.addTo(map);
+
+///--------------------------------------
+
+var linea_d = [
+  new L.LatLng(-34.90222, -56.17386),
+  new L.LatLng(-34.87871, -56.03693),
+];
+
+var linea_d_poly = new L.Polyline(linea_d, {
+  color: '#018266',
+  weight: 7,
+  opacity: 0.7,
+  smoothFactor: 1
+}); // linea_d_poly
+linea_d_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -222,6 +255,113 @@ var linea_h_poly = new L.Polyline(linea_h, {
 }); // linea_b_poly
 linea_h_poly.addTo(map);
 
+///--------------------------------------
+
+var linea_i = [
+  new L.LatLng(-34.90609, -56.19422), // intendencia
+  new L.LatLng(-34.90542, -56.19432),
+  new L.LatLng(-34.90455, -56.19378),
+  new L.LatLng(-34.90319, -56.19312), // avenida uruguay
+  new L.LatLng(-34.9022, -56.19258), // paysandu
+  new L.LatLng(-34.89294, -56.18802),
+  new L.LatLng(-34.89247, -56.18782),
+  new L.LatLng(-34.89217, -56.18788),
+  new L.LatLng(-34.89204, -56.1883),
+  new L.LatLng(-34.89185, -56.18853),
+  new L.LatLng(-34.89159, -56.18851),
+  new L.LatLng(-34.89043, -56.18794),
+  new L.LatLng(-34.89016, -56.18753),
+  new L.LatLng(-34.89027, -56.18697),
+  new L.LatLng(-34.88506, -56.18412), // libres
+  new L.LatLng(-34.88078, -56.18172), // concepcion arenal
+  new L.LatLng(-34.87666, -56.17975),
+  new L.LatLng(-34.8764, -56.17957), // garibaldi
+  new L.LatLng(-34.86701, -56.17174), // luis alberto de herrera
+  new L.LatLng(-34.86311, -56.16901), // plaza del ejercito
+  new L.LatLng(-34.82876, -56.14095), // belloni
+];
+
+var linea_i_poly = new L.Polyline(linea_i, {
+  color: '#fdb930',
+  weight: 7,
+  opacity: 0.7,
+  smoothFactor: 1
+}); // linea_i_poly
+linea_i_poly.addTo(map);
+
+///--------------------------------------
+
+var linea_e = [
+  new L.LatLng(-34.89427, -56.16421), // avenida italia
+
+  new L.LatLng(-34.88377, -56.15544), // pedro olmida
+  new L.LatLng(-34.87146, -56.13522), // pan de azucar
+  new L.LatLng(-34.85759, -56.13353), // jose de bejar
+  new L.LatLng(-34.84975, -56.12727), // ruben dario
+  new L.LatLng(-34.84182, -56.12453), // libia
+  new L.LatLng(-34.83404, -56.11184), // camino chacarita de los padres
+  new L.LatLng(-34.82862, -56.10877), // calle 7m la chacarita
+  new L.LatLng(-34.82437, -56.10181), // aries
+  new L.LatLng(-34.81159, -56.09489),
+  new L.LatLng(-34.80721, -56.09087),
+  new L.LatLng(-34.80156, -56.08693), // camino repetto
+
+  new L.LatLng(-34.7923, -56.07017), // zonamerica
+];
+
+var linea_e_poly = new L.Polyline(linea_e, {
+  color: '#6b207f',
+  weight: 7,
+  opacity: 0.7,
+  smoothFactor: 1
+}); // linea_e_poly
+linea_e_poly.addTo(map);
+
+var linea_e_ext = [
+  new L.LatLng(-34.7923, -56.07017), // zonamerica
+  new L.LatLng(-34.75339, -56.0027), // republica, barros blancos
+  new L.LatLng(-34.72325, -55.95805), // pando
+  new L.LatLng(-34.70157, -55.89582), // empalme olmos
+];
+
+var linea_e_ext_poly = new L.Polyline(linea_e_ext, {
+  color: '#6b207f',
+  weight: 7,
+  opacity: 0.4,
+  smoothFactor: 1
+}); // linea_e_ext_poly
+linea_e_ext_poly.addTo(map);
+
+///--------------------------------------
+
+var linea_f = [
+  new L.LatLng(-34.89928, -56.12286), // ingeniero juana pereyra
+  new L.LatLng(-34.89749, -56.1247), // rivera
+  new L.LatLng(-34.89139, -56.13187), // presidente oribe
+  new L.LatLng(-34.88659, -56.13795), // avenida italia
+  new L.LatLng(-34.87928, -56.14791), // 8 de octubre
+  new L.LatLng(-34.86796, -56.16267), // avenida jose pedro varela
+  new L.LatLng(-34.86311, -56.16901), // plaza del ejercito
+  new L.LatLng(-34.85323, -56.18174), // burgues
+  new L.LatLng(-34.8484, -56.18762), // arechavaleta
+  new L.LatLng(-34.84432, -56.19181), // mariscal foch
+  new L.LatLng(-34.84102, -56.1972), // instrucciones
+  new L.LatLng(-34.82757, -56.22002), // garzon
+  new L.LatLng(-34.82718, -56.22055), // pasaje de la via sayago
+  new L.LatLng(-34.81836, -56.23557), // camino lecocq
+];
+
+var linea_f_poly = new L.Polyline(linea_f, {
+  color: '#b1c901',
+  weight: 7,
+  opacity: 0.7,
+  smoothFactor: 1
+}); // linea_f_poly
+linea_f_poly.addTo(map);
+
+//#######################################
+//#######################################
+//#######################################
 // poligonos
 
 var intendencia = [[-34.906045,-56.186731], [-34.905976,-56.185548],[-34.905535, -56.185597],[-34.905591, -56.186784]];
