@@ -145,8 +145,8 @@ var linea_d = [
   new L.LatLng(-34.89951, -56.13327), // caracas
   new L.LatLng(-34.89988, -56.12976), // nicolas piaggio
   new L.LatLng(-34.89987, -56.12927),
-  new L.LatLng(-34.89587, -56.12167), // solano lopez
   new L.LatLng(-34.89972, -56.12895), // tomas basañez
+  new L.LatLng(-34.89587, -56.12167), // solano lopez
   new L.LatLng(-34.89159, -56.11222), // atlantico
   new L.LatLng(-34.89143, -56.11017), // candelaria
   new L.LatLng(-34.89115, -56.10894), // hipolito yrigoyen
