@@ -81,7 +81,6 @@ var linea_a_poly = new L.Polyline(linea_a, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_a_poly
-linea_a_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -109,7 +108,6 @@ var linea_b_poly = new L.Polyline(linea_b, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_b_poly
-linea_b_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -128,7 +126,6 @@ var linea_c_poly = new L.Polyline(linea_c, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_c_poly
-linea_c_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -166,7 +163,6 @@ var linea_d_poly = new L.Polyline(linea_d, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_d_poly
-linea_d_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -195,7 +191,6 @@ var linea_e_poly = new L.Polyline(linea_e, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_e_poly
-linea_e_poly.addTo(map);
 
 var linea_e_ext = [
   new L.LatLng(-34.7923, -56.07017), // zonamerica
@@ -210,7 +205,6 @@ var linea_e_ext_poly = new L.Polyline(linea_e_ext, {
   opacity: 0.4,
   smoothFactor: 1
 }); // linea_e_ext_poly
-linea_e_ext_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -238,7 +232,6 @@ var linea_f_poly = new L.Polyline(linea_f, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_f_poly
-linea_f_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -315,7 +308,6 @@ var linea_g_poly = new L.Polyline(linea_g, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_g_poly
-linea_g_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -355,7 +347,6 @@ var linea_h_poly = new L.Polyline(linea_h, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_b_poly
-linea_h_poly.addTo(map);
 
 ///--------------------------------------
 
@@ -390,6 +381,18 @@ var linea_i_poly = new L.Polyline(linea_i, {
   opacity: 0.7,
   smoothFactor: 1
 }); // linea_i_poly
+
+//#######################################
+
+linea_a_poly.addTo(map);
+linea_b_poly.addTo(map);
+linea_c_poly.addTo(map);
+linea_d_poly.addTo(map);
+linea_e_poly.addTo(map);
+linea_e_ext_poly.addTo(map);
+linea_f_poly.addTo(map);
+linea_g_poly.addTo(map);
+linea_h_poly.addTo(map);
 linea_i_poly.addTo(map);
 
 //#######################################
