@@ -39,6 +39,14 @@ var sitios = [
     ["91/00 18 de Julio 1552 esq. Tacuarembó Tel: 2408.5677",-34.904426,-56.182390,abitab],
     ["94/00 Av. Daniel F. Crespo Nº 1759 y 1761. esq. Paysandú Tel: 24022438",-34.898370,-56.178277,abitab],
 
+    // la blanqueada
+    ["04/07 Av. 8 de Octubre 3340 esq. Blvar. José Batlle y Ordoñez Tel: 24836651",-34.879780,-56.148608,abitab],
+    ["16/00 Av. Italia 3243 esq. Francisco Simón Tel: 24860740",-34.887509,-56.144781,abitab],
+    ["16/01 Av. Dr. Luis Alberto de Herrera 2251 esq. República Dominicana Tel: 24811604",-34.885756,-56.149882,abitab],
+    ["18/00 Bvar. Artigas 2474 esq. Colorado Tel: 24811966",-34.880849,-56.166278,abitab],
+    ["24/00 Av. Italia 2801 esq. Av. Centenario Tel: 24807116",-34.890874,-56.154140,abitab],
+    ["83/00 Av. 8 de Octubre 2953 esq. Jaime Cibils Tel: 24801614",-34.884875,-56.156519,abitab],
+
     // parque rodó
     ["08/03 Av. Gonzálo Ramírez 1951 esq. Jackson Tel: 24100587",-34.911811,-56.172585,abitab],
     ["38/01 Constituyente 2025 esq. Juan D. Jackson Tel: 24000615",-34.907877,-56.172345,abitab],
@@ -63,13 +71,15 @@ var sitios = [
     ["55/03 José Ellauri 395 esq. Solano García Tel: 27126549",-34.922836,-56.159240,abitab],
     ["74/00 Cnel Mora 571 esq. Gregorio Suárez Tel: 27100239",-34.919491,-56.158188,abitab],
 
-   // ["",,abitab],
-   // ["",,abitab],
-   // ["",,abitab],
-   // ["",,abitab],
-   // ["",,abitab],
-   // ["",,abitab],
-   // ["",,abitab],
+    // tres cruces
+    ["22/00 Av.18 de Julio 2258 esq. Acevedo Díaz Tel: 24094751",-34.898428,-56.166669,abitab],
+    ["53/00 Av. 8 de Octubre 2527 esq. Presidente Berro Tel: 2486.0349",-34.892184,-56.162572,abitab],
+    ["63/00 Dr. Salvador Ferrer Serra 2320 esq. Acevedo Díaz Tel: 2401.2911",-34.894870,-56.166828,abitab],
+    ["63/01 Shopping Tres Cruces - Local 113 - (Planta Superior) Tel: 2402.7978",-34.893376,-56.166386,abitab],
+    ["63/02 Shopping Tres Cruces (Nivel terminal) Local: B-02 Tel: 2409.8429",-34.894599,-56.166659,abitab],
+    ["69/00 Daniel Muñoz 2200 esq. Juan Paullier Tel: 24097620",-34.896094,-56.169947,abitab],
+    ["79/00 Bvar. Artigas 1649 esq. Avda. 18 de julio Tel: 24002209",-34.897758,-56.164820,abitab],
+   
    // ["",,abitab],
    // ["",,abitab],
    // ["",,abitab],
