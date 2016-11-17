@@ -1,7 +1,5 @@
 var map = L.map('map');
 
-// https://[abc].tile.thunderforest.com/transport/{z}/{x}/{y}.png
-
 var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://opentopomap.org/about">OpenTopoMap</a>',
   maxZoom: 19
@@ -16,7 +14,7 @@ var i_abitab = L.icon({
   iconAnchor:    [10, 34],
   popupAnchor:   [0,-34],
 });
-var abitab = {icon: i_abitab, title: "Snitch"};
+var abitab = {icon: i_abitab};
 
 var sitios = [
 
