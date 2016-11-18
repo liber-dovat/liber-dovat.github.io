@@ -32,6 +32,21 @@ var sitios = [
     ["90/02 Av. Dr. Luis Alberto de Herrera 1290 (MONTEVIDEO SHOPPING) Local 6 Tel: 26287524",-34.902978,-56.136630,abitab],
     ["90/04 Av. Dr. Luis Alberto de Herrera 1290 (MONTEVIDEO SHOPPING) local 506 Tel: 26281978",-34.903664,-56.136464,abitab],
 
+    // ciudad vieja
+
+    ["10/11 Piedras 249 esq. Pérez Castellanos Tel: 29154066",-34.905957,-56.211383,abitab],
+    ["10/21 Colón 1499 esq. Cerrito Tel: 29153459",-34.906449,-56.209986,abitab],
+    ["10/24 Piedras 405 entre Zabala y Misiones Tel: 29155048",-34.904804,-56.208246,abitab],
+    ["10/25 Juncal 1335 entre Sarandí y Buenos Aires Tel: 29161811",-34.906735,-56.200964,abitab],
+    ["10/27 Ituzaingó 1433 entre Rincón y 25 de mayo Tel: 29158019",-34.905838,-56.204540,abitab],
+    ["12/00 Zabala 1384 entre Rincón y Sarandí Tel: 29152166",-34.907525,-56.207104,abitab],
+    ["19/11 Peatonal Sarandí 633 entre Juan Carlos Gómez y Bartolomé Mitre Tel: 29159036",-34.906611,-56.202296,abitab],
+    ["19/18 Misiones 1482 entre Cerrito y 25 de mayo Tel: 2916.8131",-34.905697,-56.206859,abitab],
+    ["19/28 Misiones 1414 entre Rincón y 25 de mayo Tel: 2915.8910",-34.906733,-56.206373,abitab],
+    ["19/30 Pérez Castellano 1599 entre Rambla 25 de agosto y Piedras Tel: 29151715",-34.905309,-56.211689,abitab],
+    ["33/00 Sarandí 546 entre Ituizangó y Treinta y Tres Tel: 29170288",-34.907314,-56.204008,abitab],
+    ["40/01 Rincón 725 entre Juncal y Ciudadela Tel: 29023020",-34.905158,-56.200664,abitab],
+
     // cordón
     ["10/31 Av.18 de Julio 1927 esq. Av. Fernández Crespo Tel: 24002897",-34.901323,-56.174598,abitab],
     ["10/38 Av 18 de Julio 1497 esq. Vázquez Tel: 24005116",-34.904776,-56.183399,abitab],
