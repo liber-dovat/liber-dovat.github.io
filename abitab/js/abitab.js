@@ -18,6 +18,20 @@ var abitab = {icon: i_abitab};
 
 var sitios = [
 
+    // barrio sur
+    ["55/04 Ejido 1000 esq. Av. Gonzalo Ramírez Tel: 29019246/47",-34.912321,-56.186084,abitab],
+
+    // buceo
+    ["20/01 Av. Ramón Anador 3833 esq. Andrés Aguilar Tel: 24809483",-34.893182,-56.131140,abitab],
+    ["36/03 Av. Italia 3498 esq. Estivao Tel: 24801833",-34.886762,-56.138555,abitab],
+    ["39/02 Av. Gral. Rivera 3850 esq. Nicolás Piaggio Tel: 26281523",-34.899908,-56.129917,abitab],
+    ["58/01 Av. Solano López 1891 entre Av. Italia y Barroso Tel: 25065905",-34.887220,-56.129717,abitab],
+    ["59/00 Av. Gral. Rivera 4219 entre Av. Solano López y Espinosa Tel: 26130238",-34.896191,-56.122376,abitab],
+    ["59/02 Nancy 4281 entre Av.Solano López y Carlos Lallerman (DISCO) Tel: 26138428",-34.891756,-56.124235,abitab],
+    ["90/01 Av. Luis Alberto de Herrera 1203 esq. 26 de Marzo Tel: 26231944",-34.905721,-56.137008,abitab],
+    ["90/02 Av. Dr. Luis Alberto de Herrera 1290 (MONTEVIDEO SHOPPING) Local 6 Tel: 26287524",-34.902978,-56.136630,abitab],
+    ["90/04 Av. Dr. Luis Alberto de Herrera 1290 (MONTEVIDEO SHOPPING) local 506 Tel: 26281978",-34.903664,-56.136464,abitab],
+
     // cordón
     ["10/31 Av.18 de Julio 1927 esq. Av. Fernández Crespo Tel: 24002897",-34.901323,-56.174598,abitab],
     ["10/38 Av 18 de Julio 1497 esq. Vázquez Tel: 24005116",-34.904776,-56.183399,abitab],
@@ -25,7 +39,7 @@ var sitios = [
     ["13/02 Pablo de María 1446 esq. Ana Monterroso de Lavalleja Tel: 24001332",-34.901769,-56.171964,abitab],
     ["19/03 Constituyente 1661 esq. José Enrique Rodó Tel: 24090480",-34.905988,-56.180562,abitab],
     ["19/34 Colonia 1854 esq. Eduardo Acevedo Tel: 24020818",-34.901075,-56.176700,abitab],
-    ["19/37 Constituyente 1459 local 14 esq. Barrios Amorín Tel: 24000321",-34.905583,-56.184551,abitab],
+    ["19/37 Constituyente 1459 local 14 esq. Barrios Amorín Tel: 24000321",-34.905586,-56.184539,abitab],
     ["29/00 Av. 18 de Julio 1841 esq. Eduardo Acevedo Tel: 24083387",-34.902112,-56.176532,abitab],
     ["29/29 Eduardo Acevedo 1527 esq. Av.18 de Julio Tel: 24005933",-34.901617,-56.176594,abitab],
     ["37/00 Tristan Narvaja 1661 esq. Av. Uruguay Tel: 24001978",-34.899751,-56.178983,abitab],
@@ -45,9 +59,14 @@ var sitios = [
     ["24/00 Av. Italia 2801 esq. Av. Centenario Tel: 24807116",-34.890874,-56.154140,abitab],
     ["83/00 Av. 8 de Octubre 2953 esq. Jaime Cibils Tel: 24801614",-34.884875,-56.156519,abitab],
 
+    // palermo
+
+    // parque batlle
+    ["02/00 Ramón Anador 3410 esq. Av. Dr. Luis A. de Herrera Tel: 26287161",-34.895567,-56.142984,abitab],
+
     // parque rodó
     ["08/03 Av. Gonzálo Ramírez 1951 esq. Jackson Tel: 24100587",-34.911811,-56.172585,abitab],
-    ["38/01 Constituyente 2025 esq. Juan D. Jackson Tel: 24000615",-34.907877,-56.172345,abitab],
+    ["38/01 Constituyente 2025 esq. Juan D. Jackson Tel: 24000615",-34.907758,-56.172644,abitab],
     ["49/00 Canelones 2202 esq. Juan Paullier Tel: 24083308",-34.907071,-56.167435,abitab],
 
     // pocitos
@@ -104,7 +123,7 @@ for (var i = 0; i < sitios.length; i++) {
   marker.ID = i;
 
   marker.on('mouseover', function (e) {
-    console.log(e.target.Nombre);
+    // console.log(e.target.Nombre);
     this.openPopup();
   });
 
@@ -115,8 +134,8 @@ for (var i = 0; i < sitios.length; i++) {
   marker.addTo(map);
 } // for
 
-function onMapClick(e) {
-  console.log(e.latlng);
-  // map.panTo(e.latlng);
-};
-map.on('click', onMapClick);
+// function onMapClick(e) {
+//   console.log(e.latlng.toFixed(6).toString());
+//   // map.panTo(e.latlng);
+// };
+// map.on('click', onMapClick);
