@@ -32,6 +32,45 @@ var sitios = [
     ["90/02 Av. Dr. Luis Alberto de Herrera 1290 (MONTEVIDEO SHOPPING) Local 6 Tel: 26287524",-34.902978,-56.136630,abitab],
     ["90/04 Av. Dr. Luis Alberto de Herrera 1290 (MONTEVIDEO SHOPPING) local 506 Tel: 26281978",-34.903664,-56.136464,abitab],
 
+    // centro
+    ["04/00 Andes 1387 entre Av.18 de Julio y Colonia Tel: 29010240",-34.9058036,-56.1982650,abitab],
+    ["06/00 Convención 1410 entre Colonia y Mercedes Tel: 29001333",-34.9050788,-56.1969451,abitab],
+    ["07/00 San José 892 entre Convención y Andes Tel: 29002343",-34.9075164,-56.1971435,abitab],
+    ["08/02 Av. Uruguay 1199 esq. Cuareim Tel: 29010056",-34.9031906,-56.1907730,abitab],
+    ["10/06 San José 827 entre Florida y Andes Tel: 29089761",-34.9072799,-56.1984901,abitab],
+    ["10/08 Andes 1373 entre Av. 18 de Julio y Colonia Tel: 29008156",-34.9059600,-56.1982536,abitab],
+    ["10/12 Wilson F. Aldunate 1321 entre Av.18 de Julio y San José Tel: 29005260",-34.9067878,-56.1959342,abitab],
+    ["10/13 Ejido 1364 entre Av.18 de Julio y Colonia Tel: 29003878",-34.9052696,-56.1867218,abitab],
+    ["10/16 Colonia 992 entre Julio Herrera y Obes y Río Branco Tel: 29080950",-34.9054298,-56.1951179,abitab],
+    ["10/19 Convención 1366 entre Av.18 de Julio y Colonia Tel: 29003264",-34.9059333,-56.1968536,abitab],
+    ["10/26 Av. 18 de Julio 1326 entre Ejido y Yaguarón Tel: 29004466",-34.9058341,-56.1874008,abitab],
+    ["10/33 Andes 1490 entre Av. Uruguay y Mercedes Tel: 29000870",-34.9038619,-56.1982269,abitab],
+    ["10/34 Andes 1422 entre Colonia y Mercedes Tel: 29001024",-34.9050369,-56.1980247,abitab],
+    ["19/06 Río Negro 1457 entre Mercedes y Av. Uruguay Tel: 29027887",-34.9039611,-56.1940307,abitab],
+    ["19/07 Paraguay 1315 esq. San José Tel: 29031151",-34.9066047,-56.1926078,abitab],
+    ["19/09 Zelmar Michelini 1344 entre Av. 18 de julio y San José Tel: 29006668",-34.9061050,-56.1900367,abitab],
+    ["19/12 Av. 18 de Julio 1395 entre Germán Barbato y Ejido Tel: 29006423",-34.9054336,-56.1862945,abitab],
+    ["19/17 Plaza Cagancha s/n Cdo. Suroeste Tel: 29002303",-34.9060745,-56.1915817,abitab],
+    ["19/25 Paysandú 1341 entre Ejido y Yaguarón Tel: 29011040",-34.9016380,-56.1875457,abitab],
+    ["19/26 Dr. Aquiles Lanza 1281 entre Soriano y San José Tel: 29085056",-34.9070663,-56.1880264,abitab],
+    ["19/27 Av.18 de Julio 1204 entre Zelmar Michelini y Carlos Quijano Tel: 29020909",-34.9059410,-56.1899871,abitab],
+    ["19/31 Andes 1288 entre Soriano y San José Tel: 29000852",-34.9077110,-56.1977005,abitab],
+    ["19/33 San josé 1200 esq. Zelmar Michelini Tel: 29021382",-34.9065132,-56.1903495,abitab],
+    ["19/36 Colonia 836 entre Andes y Florida Tel: 29085235",-34.9056510,-56.1985473,abitab],
+    ["35/00 Av. Uruguay 1252 esq. Yí Tel: 29007672",-34.9030685,-56.1891784,abitab],
+    ["41/00 Río Negro 1149 esq. Maldonado Tel: 29003406",-34.9100799,-56.1933670,abitab],
+    ["42/00 Colonia 1169 entre Av. Gral. Rondeau y Cuareim Tel: 29023424",-34.9047698,-56.1910514,abitab],
+    ["46/00 Av.18 de Julio 975 esq. Río Branco Tel: 29084266",-34.9060134,-56.1952781,abitab],
+    ["58/00 Dr. Aquiles Lanza 1332 entre Av.18 de Julio y San José Tel: 29010435",-34.9060935,-56.1877555,abitab],
+    ["60/00 Av. Libertador Lavalleja 1644 esq. Galicia Tel: 29006935",-34.900091,-56.191454,abitab],
+    ["61/00 Ejido 1315 entre San José y Av.18 de Julio Tel: 29012565",-34.9060935,-56.1870155,abitab],
+    ["66/00 Mercedes 1151 entre Av. Gral. Rondeau y Cuareim Tel: 29085061",-34.9038429,-56.1913833,abitab],
+    ["68/00 Río Negro 1341 entre Av.18 de Julio y San José Tel: 29087414",-34.9063720,-56.1937370,abitab],
+    ["70/01 Yaguarón 1450 entre Mercedes y Colonia Tel: 29080907",-34.9039688,-56.1879959,abitab],
+    ["76/00 Ejido 1520 entre Av. Uruguay y Paysandú Tel: 29001313",-34.9023323,-56.1870307,abitab],
+    ["80/02 Av.Uruguay 1032 bis entre Julio Herrera y Obes y Río Negro Tel: 29000581",-34.9034538,-56.1943855,abitab],
+    ["90/03 Terminal de Río Branco local 18 Tel: 29085443",-34.9003448,-56.1969223,abitab],
+
     // ciudad vieja
 
     ["10/11 Piedras 249 esq. Pérez Castellanos Tel: 29154066",-34.905957,-56.211383,abitab],
@@ -75,6 +114,7 @@ var sitios = [
     ["83/00 Av. 8 de Octubre 2953 esq. Jaime Cibils Tel: 24801614",-34.884875,-56.156519,abitab],
 
     // palermo
+    // no hay
 
     // parque batlle
     ["02/00 Ramón Anador 3410 esq. Av. Dr. Luis A. de Herrera Tel: 26287161",-34.895567,-56.142984,abitab],
