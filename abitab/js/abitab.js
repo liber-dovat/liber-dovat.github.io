@@ -1,5 +1,7 @@
 var map = L.map('map');
 
+// http://tiles.mapc.org/basemap/{z}/{x}/{y}.png
+
 var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://opentopomap.org/about">OpenTopoMap</a>',
   maxZoom: 19
