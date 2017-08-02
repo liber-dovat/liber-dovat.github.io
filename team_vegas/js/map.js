@@ -30,7 +30,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/ciopxjlfd002xbom5b74c3
      id: 'mapbox.light'
    }).addTo(map);
 
-map.setView([36.142,-118.597], 7);
+map.setView([36.142,-118.597], 6);
 
 var i_marca = L.icon({
   iconUrl:     './images/marker-icon.png',
@@ -230,7 +230,7 @@ for (var i = 0; i < sitios.length; i++) {
 // Pan out/in
 // '<span class="star">&equiv;</span>'
 L.easyButton( '<span class="star">Cal</span>', function(btn, map){
-  map.setView([36.142,-118.597], 7, {animate: true, duration: 0.8});
+  map.setView([36.142,-118.597], 6, {animate: true, duration: 0.8});
 }).addTo(map);
 
 function onMapClick(e) {
