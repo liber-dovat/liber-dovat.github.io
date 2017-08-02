@@ -181,6 +181,9 @@ var sitios = [
 
 // map.addControl(new customControl());
 
+// https://stackoverflow.com/questions/17460116/how-can-i-expand-and-collapse-a-div-using-javascript
+// http://jsfiddle.net/hungerpain/eK8X5/7/
+
 var info = L.control();
 
 // create a div with a class "info"
@@ -216,7 +219,13 @@ for (var i = 0; i < sitios.length; i++) {
 
 	marker.on('mouseover', function (e) {
     // console.log(e.target.Nombre);
-		info.update(e);
+		// info.update(e);
+    // this.openPopup();
+  });
+
+  marker.on('click', function (e) {
+    // console.log(e.target.Nombre);
+    info.update(e);
     this.openPopup();
   });
 
