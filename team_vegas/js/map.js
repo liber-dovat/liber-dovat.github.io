@@ -35,7 +35,7 @@ map.setView([36.142,-118.597], 6);
 var i_marca = L.icon({
   iconUrl:     './images/marker-icon.png',
   iconSize:    [25, 41],
-  iconAnchor:  [25, 41],
+  iconAnchor:  [12, 41],
   popupAnchor: [-12, -35],
   shadowUrl:   './images/marker-shadow.png',
 });
