@@ -22,7 +22,15 @@ var map = L.map('map');
 // });
 // OpenStreetMap_Mapnik.addTo(map);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/ciopxjlfd002xbom5b74c3bj3/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGliZXItZG92YXQiLCJhIjoiY2lvcHd3cHJ4MDBjdXVobHo2MXFieWp5diJ9.ICKX_7iHmGKJjklu_uQbug', {
+// L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/ciopxjlfd002xbom5b74c3bj3/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGliZXItZG92YXQiLCJhIjoiY2lvcHd3cHJ4MDBjdXVobHo2MXFieWp5diJ9.ICKX_7iHmGKJjklu_uQbug', {
+//      maxZoom: 18,
+//      attribution: 'Map data &copy; <a href="http://mapbox.com">Mapbox</a> contributors, ' +
+//        '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+//        'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+//      id: 'mapbox.light'
+//    }).addTo(map);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/cj4zswhpf10d72rpecjwzyiom/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGliZXItZG92YXQiLCJhIjoiY2lvcHd3cHJ4MDBjdXVobHo2MXFieWp5diJ9.ICKX_7iHmGKJjklu_uQbug', {
      maxZoom: 18,
      attribution: 'Map data &copy; <a href="http://mapbox.com">Mapbox</a> contributors, ' +
        '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
