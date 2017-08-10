@@ -215,11 +215,11 @@ L.easyButton( '<span class="star">LA</span>', function(btn, map){
 }).addTo(map);
 
 L.easyButton( '<span class="star">SF</span>', function(btn, map){
-  map.setView([37.8088,-122.4121], 12, {animate: true, duration: 0.8});
+  map.setView([37.8088,-122.4121], 11, {animate: true, duration: 0.8});
 }).addTo(map);
 
 L.easyButton( '<span class="star">LV</span>', function(btn, map){
-  map.setView([36.1740,-115.1319], 12, {animate: true, duration: 0.8});
+  map.setView([36.1740,-115.1319], 11, {animate: true, duration: 0.8});
 }).addTo(map);
 
 function onMapClick(e) {
