@@ -16,11 +16,11 @@
 
 var map = L.map('map');
 
-// var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//   attribution: '&copy; <a href="https://opentopomap.org/about">OpenTopoMap</a>',
-//   maxZoom: 19
-// });
-// OpenStreetMap_Mapnik.addTo(map);
+var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://opentopomap.org/about">OpenTopoMap</a>',
+  maxZoom: 19
+});
+OpenStreetMap_Mapnik.addTo(map);
 
 // L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/ciopxjlfd002xbom5b74c3bj3/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGliZXItZG92YXQiLCJhIjoiY2lvcHd3cHJ4MDBjdXVobHo2MXFieWp5diJ9.ICKX_7iHmGKJjklu_uQbug', {
 //      maxZoom: 18,
@@ -30,13 +30,13 @@ var map = L.map('map');
 //      id: 'mapbox.light'
 //    }).addTo(map);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/cj4zswhpf10d72rpecjwzyiom/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGliZXItZG92YXQiLCJhIjoiY2lvcHd3cHJ4MDBjdXVobHo2MXFieWp5diJ9.ICKX_7iHmGKJjklu_uQbug', {
-     maxZoom: 18,
-     attribution: 'Map data &copy; <a href="http://mapbox.com">Mapbox</a> contributors, ' +
-       '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-       'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-     id: 'mapbox.light'
-   }).addTo(map);
+// L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/cj4zswhpf10d72rpecjwzyiom/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGliZXItZG92YXQiLCJhIjoiY2lvcHd3cHJ4MDBjdXVobHo2MXFieWp5diJ9.ICKX_7iHmGKJjklu_uQbug', {
+//      maxZoom: 18,
+//      attribution: 'Map data &copy; <a href="http://mapbox.com">Mapbox</a> contributors, ' +
+//        '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+//        'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+//      id: 'mapbox.light'
+//    }).addTo(map);
 
 map.setView([36.142,-118.597], 6);
 
@@ -44,50 +44,10 @@ var i_marca = L.icon({
   iconUrl:     './images/marker-icon.png',
   iconSize:    [25, 41],
   iconAnchor:  [12, 41],
-  popupAnchor: [-12, -35],
+  popupAnchor: [0, -35],
   shadowUrl:   './images/marker-shadow.png',
 });
 var marca1 = {icon: i_marca, title: "Marcador"};
-
-// var i_ciudad1 = L.icon({
-//   iconUrl:       './js/images/ciudad1.png',
-//   // iconRetinaUrl: './js/images/maya_40.png',
-//   iconSize:      [35, 20],
-//   iconAnchor:    [35, 20],
-//   popupAnchor:   [-18, -20],
-// //   shadowUrl: './js/images/marker-shadow.png',
-// });
-// var ciudad1 = {icon: i_ciudad1, title: "Ciudad grande"};
-
-// var i_ciudad2 = L.icon({
-//   iconUrl:       './js/images/ciudad2.png',
-//   // iconRetinaUrl: './js/images/maya_40.png',
-//   iconSize:      [29, 17],
-//   iconAnchor:    [29, 17],
-//   popupAnchor:   [-15, -17],
-// //   shadowUrl: './js/images/marker-shadow.png',
-// });
-// var ciudad2 = {icon: i_ciudad2, title: "Ciudad mediana"};
-
-// var i_ciudad3 = L.icon({
-//   iconUrl:       './js/images/ciudad3.png',
-//   // iconRetinaUrl: './js/images/maya_40.png',
-//   iconSize:      [24, 14],
-//   iconAnchor:    [24, 14],
-//   popupAnchor:   [-12, -14],
-// //   shadowUrl: './js/images/marker-shadow.png',
-// });
-// var ciudad3 = {icon: i_ciudad3, title: "Ciudad pequeña"};
-
-// var i_cueva = L.icon({
-//   iconUrl:       './js/images/cueva.png',
-//   // iconRetinaUrl: './js/images/maya_40.png',
-//   iconSize:      [19, 13],
-//   iconAnchor:    [19, 13],
-//   popupAnchor:   [-8, -13],
-// //   shadowUrl: './js/images/marker-shadow.png',
-// });
-// var cueva = {icon: i_cueva, title: "Cueva"};
 
 // Creo un array con la información de los sitios
 var sitios = [
@@ -246,8 +206,20 @@ for (var i = 0; i < sitios.length; i++) {
 
 // Pan out/in
 // '<span class="star">&equiv;</span>'
-L.easyButton( '<span class="star">Cal</span>', function(btn, map){
+L.easyButton( '<span class="star">CA</span>', function(btn, map){
   map.setView([36.142,-118.597], 6, {animate: true, duration: 0.8});
+}).addTo(map);
+
+L.easyButton( '<span class="star">LA</span>', function(btn, map){
+  map.setView([34.0541,-118.2204], 10, {animate: true, duration: 0.8});
+}).addTo(map);
+
+L.easyButton( '<span class="star">SF</span>', function(btn, map){
+  map.setView([37.8088,-122.4121], 12, {animate: true, duration: 0.8});
+}).addTo(map);
+
+L.easyButton( '<span class="star">LV</span>', function(btn, map){
+  map.setView([36.1740,-115.1319], 12, {animate: true, duration: 0.8});
 }).addTo(map);
 
 function onMapClick(e) {
