@@ -120,7 +120,7 @@ var sitios = [
    ["Museo de Young", 37.771389, -122.468136, marca1],
    ["San Francisco’s Dungeon", 37.808220, -122.414731, marca1],
    ["Museo de Arte Moderno de San Francisco", 37.785706, -122.401054, marca1],
-   ["Napa Valley", 38365757,-122342387, marca1],
+   ["Napa Valley", 38.365757,-122.342387, marca1],
 ];
 
 // var customControl = L.Control.extend({
