@@ -171,7 +171,7 @@ var sitios = [
    ["Acuario de la Bahía", 37.808602, -122.409373, views],
    ["Museo del Cable Car", 37.794691, -122.411722, museum],
    ["Musée Mécanique", 37.809318, -122.416062, museum],
-   ["Museo de Young", 37.771389, -122.468136, museum],
+   ["Museo de Young", 37.771389, -122.468136, museum, "Dirección: 50 Hagiwara Tea Garden Dr, Golden Gate Park, San Francisco, CA 94118-4502 El Museo de Young es un museo de Bellas Artes situado en pleno corazón del Parque Golden Gate, a escasos metros del California Academy of Sciences. El museo fue inaugurado en el año 1895 pero tuvo que ser demolido después del terremoto de 1989. Fue en el año 2005 cuando abrió sus puertas de nuevo para mostrar sus colecciones de arte de los siglos XIX y XX y su gran exposición de arte africano. De Young se encuentra ordenado geográficamente de forma que es muy cómodo de visitar y saber lo que se está viendo en cada momento. Probablemente la parte más interesante y novedosa sea la zona africana, repleta de máscaras que simulan animales y multitud de figuras talladas en madera que parecen esconder temibles maldiciones. El Museo de Young dispone de audioguías para facilitar su visita aunque no están incluidas en el precio de la entrada. Horario: Martes a domingo de 9:30 am – 5:15 pm Precio: $15 (adultos) y $6 (estudiantes)"],
    ["San Francisco’s Dungeon", 37.808220, -122.414731, views],
    ["Museo de Arte Moderno de San Francisco", 37.785706, -122.401054, museum],
    ["Napa Valley", 38.293565, -122.292911, views],
@@ -219,8 +219,10 @@ info.onAdd = function (map) {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (marcador) {
-  this._div.innerHTML = '<h2>Info:</h2>' + (marcador ?
-    '<b>Nombre: </b>' + marcador.target.Nombre 
+  this._div.innerHTML = 
+    (marcador ? '<h2>' + marcador.target.Nombre + '</h2>' +
+
+    '<p>' + marcador.target.Descripcion + '</p>'
 
     // + 
     // '<div class="image">' +
@@ -238,8 +240,9 @@ for (var i = 0; i < sitios.length; i++) {
 	marker = new L.marker([sitios[i][1],sitios[i][2]],sitios[i][3])
 		.bindPopup("<b>" + sitios[i][0] + "</b>", {closeButton:false});
 
-	marker.Nombre = sitios[i][0];
-  marker.ID = i;
+	marker.Nombre      = sitios[i][0];
+  marker.Descripcion = sitios[i][4];
+  marker.ID          = i;
 
 	marker.on('mouseover', function (e) {
     // console.log(e.target.Nombre);
