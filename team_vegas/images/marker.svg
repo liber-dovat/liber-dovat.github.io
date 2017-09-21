@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6591756"
-     inkscape:cx="11.138298"
-     inkscape:cy="22.589917"
+     inkscape:zoom="2.3464286"
+     inkscape:cx="51.082829"
+     inkscape:cy="33.482854"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer7"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -65,12 +65,12 @@
      transform="translate(-254.41383,-418.24347)"
      style="display:inline">
     <path
-       style="opacity:1;fill:#267fca;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#267fca;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 289.41383,472.24347 30.29032,-1.44876 -30.29032,52.44876 z"
        id="rect12491"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
-       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/restaurant.png"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/landmark.png"
        inkscape:export-xdpi="64"
        inkscape:export-ydpi="64" />
     <path
@@ -79,7 +79,7 @@
        id="path12494"
        d="m 291.41383,472.24347 -32.29032,-1.44876 30.29032,52.44876 z"
        style="fill:#267fca;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/restaurant.png"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/landmark.png"
        inkscape:export-xdpi="64"
        inkscape:export-ydpi="64" />
     <path
@@ -92,7 +92,7 @@
        sodipodi:ry="34.572693"
        d="m 279.82274,431.13406 a 34.572693,34.572693 0 1 1 -69.14539,0 34.572693,34.572693 0 1 1 69.14539,0 z"
        transform="matrix(1.0123597,0,0,1.0123597,41.132567,16.780719)"
-       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/restaurant.png"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/landmark.png"
        inkscape:export-xdpi="64"
        inkscape:export-ydpi="64" />
     <path
@@ -105,7 +105,7 @@
        id="path2987"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
        sodipodi:type="arc"
-       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/restaurant.png"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/landmark.png"
        inkscape:export-xdpi="64"
        inkscape:export-ydpi="64" />
     <path
@@ -116,9 +116,9 @@
        sodipodi:cy="431.13406"
        sodipodi:cx="245.25005"
        id="path6467"
-       style="opacity:0.25;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       style="opacity:0.25;fill:#b14200;fill-opacity:0;fill-rule:nonzero;stroke:none;display:inline"
        sodipodi:type="arc"
-       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/restaurant.png"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/landmark.png"
        inkscape:export-xdpi="64"
        inkscape:export-ydpi="64" />
   </g>
@@ -163,7 +163,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="food2"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <path
        transform="matrix(0.78096318,0,0,0.78096318,-156.53126,-301.69983)"
@@ -302,8 +302,8 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="museum"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:none"
+     sodipodi:insensitive="true">
     <path
        transform="matrix(0.78096318,0,0,0.78096318,-156.53126,-301.69983)"
        d="m 279.82274,431.13406 a 34.572693,34.572693 0 1 1 -69.14539,0 34.572693,34.572693 0 1 1 69.14539,0 z"
@@ -312,12 +312,18 @@
        sodipodi:cy="431.13406"
        sodipodi:cx="245.25005"
        id="path7975"
-       style="fill:#a0795d;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
-       sodipodi:type="arc" />
+       style="fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/museum.png"
+       inkscape:export-xdpi="64"
+       inkscape:export-ydpi="64" />
     <g
        id="g9542"
        transform="matrix(0.16270093,0,0,0.16270093,-12.95108,30.938285)"
-       style="fill:#ffffff">
+       style="fill:#ffffff"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/museum.png"
+       inkscape:export-xdpi="64"
+       inkscape:export-ydpi="64">
       <path
          inkscape:connector-curvature="0"
          style="fill:#ffffff"
@@ -335,8 +341,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="landmark"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <path
        transform="matrix(0.78096318,0,0,0.78096318,-156.53126,-301.69983)"
        d="m 279.82274,431.13406 a 34.572693,34.572693 0 1 1 -69.14539,0 34.572693,34.572693 0 1 1 69.14539,0 z"
@@ -345,12 +350,18 @@
        sodipodi:cy="431.13406"
        sodipodi:cx="245.25005"
        id="path9547"
-       style="fill:#a0795d;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
-       sodipodi:type="arc" />
+       style="fill:#b14200;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/landmark.png"
+       inkscape:export-xdpi="64"
+       inkscape:export-ydpi="64" />
     <g
        id="g10421"
        transform="matrix(0.09256216,0,0,0.09256216,11.304226,14.950473)"
-       style="fill:#ffffff">
+       style="fill:#ffffff"
+       inkscape:export-filename="/home/chrono/programacion/liber-dovat.github.io/team_vegas/images/landmark.png"
+       inkscape:export-xdpi="64"
+       inkscape:export-ydpi="64">
       <g
          id="g10355"
          style="fill:#ffffff">
@@ -359,7 +370,7 @@
            style="fill:#ffffff">
           <polygon
              id="polygon10359"
-             points="368.279,32.941 325.198,32.941 325.198,0 277.538,0 277.538,32.941 234.459,32.941 234.459,0 186.798,0 186.798,32.941 143.718,32.941 143.718,0 96.058,0 96.058,65.891 415.94,65.891 415.94,0 368.279,0 "
+             points="277.538,32.941 234.459,32.941 234.459,0 186.798,0 186.798,32.941 143.718,32.941 143.718,0 96.058,0 96.058,65.891 415.94,65.891 415.94,0 368.279,0 368.279,32.941 325.198,32.941 325.198,0 277.538,0 "
              style="fill:#ffffff" />
         </g>
       </g>

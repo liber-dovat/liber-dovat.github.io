@@ -251,10 +251,12 @@ for (var i = 0; i < sitios.length; i++) {
     // console.log(e.target.Nombre);
     info.update(e);
     this.openPopup();
+    $(".info").show();
   });
 
   marker.on('mouseout', function (e) {
     this.closePopup();
+    $(".info").hide();
   });
 
   marker.addTo(map);
@@ -284,3 +286,7 @@ function onMapClick(e) {
 };
 
 map.on('click', onMapClick);
+
+$(document).ready(function(){
+  $(".info").hide();
+});
