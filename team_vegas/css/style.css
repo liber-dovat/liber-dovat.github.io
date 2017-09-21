@@ -46,7 +46,16 @@ html, body, #map{
 }
 
 .info {
-    width: 300px;
+  width: 30vw;
+}
+
+@media all and (max-width: 720px) {
+  .info {
+    width: 85vw;
+  }
+}
+
+.info {
     padding: 6px 8px;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
