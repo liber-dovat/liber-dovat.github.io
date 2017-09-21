@@ -219,7 +219,7 @@ info.onAdd = function (map) {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (marcador) {
-  this._div.innerHTML = '<h2>Información del sitio</h2>' + (marcador ?
+  this._div.innerHTML = '<h2>Info:</h2>' + (marcador ?
     '<b>Nombre: </b>' + marcador.target.Nombre 
 
     // + 
@@ -271,7 +271,7 @@ L.easyButton( '<span class="star">LA</span>', function(btn, map){
 }).addTo(map);
 
 L.easyButton( '<span class="star">SF</span>', function(btn, map){
-  map.setView([37.80157841883147, -122.45627403259279], 12, {animate: true, duration: 0.8});
+  map.setView([37.80218877920469, -122.45387077331544], 12, {animate: true, duration: 0.8});
 }).addTo(map);
 
 L.easyButton( '<span class="star">LV</span>', function(btn, map){
