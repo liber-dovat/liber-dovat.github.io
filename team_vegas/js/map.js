@@ -251,12 +251,14 @@ for (var i = 0; i < sitios.length; i++) {
     // console.log(e.target.Nombre);
     info.update(e);
     this.openPopup();
+
     $(".info").show();
+    
   });
 
   marker.on('mouseout', function (e) {
     this.closePopup();
-    $(".info").hide();
+    // $(".info").hide();
   });
 
   marker.addTo(map);
@@ -283,6 +285,7 @@ L.easyButton( '<span class="star">LV</span>', function(btn, map){
 function onMapClick(e) {
   console.log(e.latlng);
   // map.panTo(e.latlng);
+  $(".info").hide();
 };
 
 map.on('click', onMapClick);

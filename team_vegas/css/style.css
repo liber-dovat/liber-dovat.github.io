@@ -51,7 +51,7 @@ html, body, #map{
 
 @media all and (max-width: 720px) {
   .info {
-    width: 85vw;
+    width: 75vw;
   }
 }
 
@@ -61,7 +61,7 @@ html, body, #map{
     background: white;
     background: rgba(255,255,255,0.8);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .info h4 {
     margin: 0 0 5px;
