@@ -271,7 +271,7 @@ L.easyButton( '<span class="star">LA</span>', function(btn, map){
 }).addTo(map);
 
 L.easyButton( '<span class="star">SF</span>', function(btn, map){
-  map.setView([37.80334166837025, -122.45266914367677], 12, {animate: true, duration: 0.8});
+  map.setView([37.80157841883147, -122.45627403259279], 12, {animate: true, duration: 0.8});
 }).addTo(map);
 
 L.easyButton( '<span class="star">LV</span>', function(btn, map){
