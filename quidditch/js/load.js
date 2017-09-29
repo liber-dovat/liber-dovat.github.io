@@ -39,8 +39,8 @@ var i_snitch = L.icon({
   iconUrl:       './js/images/snitch.png',
   // iconRetinaUrl: './js/images/maya_40.png',
   iconSize:      [30, 30],
-  iconAnchor:    [30, 30],
-  popupAnchor:   [-15, -30],
+  iconAnchor:    [15, 30],
+  popupAnchor:   [-5, -20],
 //   shadowUrl: './js/images/marker-shadow.png',
 });
 var snitch = {icon: i_snitch, title: "Snitch"};
