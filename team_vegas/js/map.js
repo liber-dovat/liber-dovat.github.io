@@ -27,7 +27,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/ciopxjlfd002xbom5b74c3
      attribution: 'Map data &copy; <a href="http://mapbox.com">Mapbox</a> contributors, ' +
        '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
        'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-     id: 'mapbox.light'
+     id: 'mapbox.light',
+     detectRetina: true
    }).addTo(map);
 
 // L.tileLayer('https://api.mapbox.com/styles/v1/liber-dovat/cj4zswhpf10d72rpecjwzyiom/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGliZXItZG92YXQiLCJhIjoiY2lvcHd3cHJ4MDBjdXVobHo2MXFieWp5diJ9.ICKX_7iHmGKJjklu_uQbug', {

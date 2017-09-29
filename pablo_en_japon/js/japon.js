@@ -3,7 +3,8 @@ var map = L.map('map');
 // https://[abc].tile.thunderforest.com/transport/{z}/{x}/{y}.png
 
 var OpenStreetMap_Mapnik = L.tileLayer('https://tile.thunderforest.com/transport/{z}/{x}/{y}.png', {
-	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  detectRetina: true
 });
 OpenStreetMap_Mapnik.addTo(map);
 
