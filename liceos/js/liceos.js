@@ -6,7 +6,7 @@ var openstreetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.
 });
 openstreetmap.addTo(map);
 
-map.setView([-34.8724042,-56.1675906], 12);
+map.setView([-34.8294382,-56.2025789], 12);
 
 // Creo un array con la información de los sitios
 var sitios = [
