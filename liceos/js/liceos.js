@@ -14,6 +14,26 @@ var sitios = [
    ['Liceo N° 18', 'Av Millán 3898', -34.8557682,-56.1986293,18],
    ['Liceo N° 23', '28 de Febrero 1097', -34.8311983,-56.2201309,23],
    ['Liceo N° 24', 'Presbítero José Nicolás Barrales 2500', -34.8372056,-56.2788582,24],
+   ['Liceo N° 40', 'Gustavo Adolfo Becquer y Camino Edison', -34.8294382,-56.2025789,40],
+   ['Liceo N° 43', 'Camino O\'Higgins y Camino Sanguinetti', -34.8299066,-56.3572112,43],
+   ['Liceo N° 44', 'Camino Dr. Francisco Azarola y Camino de la Redención', -34.7654087,-56.3028365,44],
+   ['Liceo N° 62', 'Av. Lezica 5791', -34.8037971,-56.2298342,62],
+   ['Liceo N° 63', 'Ernesto Herrera 790', -34.8485719,-56.2046928,63],
+   ['Liceo N° 74', 'Luis Lasagna y Calle Pinta', -34.7992671,-56.2500788,74],
+   ['Liceo N° 75', 'Av. Agraciada 3721', -34.8641574,-56.2126171,75],
+   ['Liceo N° 7', 'Pedro Fco. Berro 773', -34.9168814,-56.1557087,7],
+   ['Liceo N° 10', 'Mataojo 1895', -34.8874863,-56.1236333,10],
+   ['Liceo N° 14', 'Av. 8 de Octubre 3390', -34.879873,-56.1475182,14],
+   ['Liceo N° 15', 'Av Alfredo Arocena 1919', -34.8826348,-56.0626106,15],
+   ['Liceo N° 19', 'Calle 20 de Febrero 2510/20', -34.8690014,-56.1336515,19],
+   ['Liceo N° 20', 'Ledo Arroyo Torres 5626', -34.8872257,-56.0873286,20],
+   ['Liceo N° 25', 'Ruta 8 Brigadier Gral Juan Antonio Lavalleja 7927', -34.7984443,-56.0846985,25],
+   ['Liceo N° 31', 'Av 18 de Diciembre', -34.892057,-56.1053809,31],
+   ['Liceo N° 33', 'Ana María Rubens 2324', -34.8719378,-56.1065079,33],
+   ['Liceo N° 42', 'Iguá 4484', -34.8817329,-56.1165119,42],
+   ['Liceo N° 45', 'Cno Maldonado (Ruta 8) 5852-5916', -34.8385363,-56.1212124,45],
+   ['Liceo N° 58', 'Cno. Maldonado 5870', -34.8393015,-56.1191889,58],
+   ['Liceo N° 76', 'Calle 20 de Febrero 2515-2503', -34.8687145,-56.1337495,76],
 ];
 
 for (var i = 0; i < sitios.length; i++) {
@@ -26,7 +46,7 @@ for (var i = 0; i < sitios.length; i++) {
         iconSize: null, 
         iconAnchor: [12, 41],
         popupAnchor: [0, -41],
-        html: '<img class="my-div-image" src="./js/images/marker-icon-full.png"/>'+
+        html: '<img class="my-div-image" src="./js/images/marker_bo.png"/>'+
               '<div class="my-div-span">'+ 
                 '<div class="my-div-text">'+ sitios[i][4] +'</div>' +
               '</div>'
