@@ -1,1 +1,0 @@
-curl -X POST http://www.montevideo.gub.uy/buses/rest/stm-online -H "Content-Type: application/json" -d '{"empresa": 50, "lineas":["199"], "subsistema": 1}'
